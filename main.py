@@ -356,7 +356,7 @@ for cycle in range(max_cycles + 1):
             print(f"  Closed-line region -> PDE: {loss_pde_c:.2e} | Sep: {loss_sep_c:.2e} | Star: {loss_star_c:.2e}")
             print(f"  Open-line region   -> PDE: {loss_pde_o:.2e} | Align: {loss_align:.2e} | Sep: {loss_sep_o:.2e} | Star: {loss_star_o:.2e} | LC: {loss_lc:.2e} | Eq: {loss_eq:.2e} | Rmax: {loss_rmax:.2e}\n")
             print(f" ~> Avg Pressure Difference: {100*avg_p:.2f}% | Max Pressure Difference: {100*max_p:.2f}%")
-            print(f" ~> True PDE Closed Loss: {loss_pde_c_true:.2e} | True PDE Open Loss: {loss_pde_o_true:.2e}")
+            print(f" ~> Closed PDE MSE: {loss_pde_c_true:.2e} | Open PDE MSE: {loss_pde_o_true:.2e}")
             print("-" * 130)
 
     if (max_p < tol_dp) and (avg_change < tol_sep):

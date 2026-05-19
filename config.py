@@ -13,7 +13,7 @@
 SEED = [42]
 
 # Stellar radius (R_*/R_LC)
-R = [0.05]
+R = [0.25]
 
 # Polar-cap angle multiplier (θ_pc = MULTIPLIER · √R)
 MULTIPLIER = [1.176]
@@ -21,7 +21,7 @@ MULTIPLIER = [1.176]
 # Floating-point precision
 #   True  → 64-bit / double precision
 #   False → 32-bit / single precision
-DOUBLE_PRECISION = [True]
+DOUBLE_PRECISION = [False]
 
 # Separatrix update step size β
 BETA_SEP = [0.025]
@@ -34,7 +34,7 @@ TOL = [(15e-4, 1e-1)]
 # Training schedule: how many epochs to run per geometry cycle.
 # Each entry is a dict mapping cycle_index → epochs_per_cycle.
 # The last entry in the dict applies to all subsequent cycles.
-CYCLE_CONFIG = [{0: 20_000, 6: 10_000}]
+CYCLE_CONFIG = [{0: 20_000, 4: 10_000}]
 
 # Separatrix model symmetry
 #   True  → SymmetricSeparatrix (input is θ², enforces even symmetry)
