@@ -1,0 +1,2 @@
+jaxkan[gpu]
+optimistix
