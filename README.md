@@ -121,12 +121,12 @@ If you find this code useful in your research, please cite the paper that introd
 
 ```bibtex
 @article{pulsarx,
-  author  = {Rigas, Spyros and Contopoulos, Ioannis and Alexandridis, Georgios and Nathanail, Antonios},
-  title   = {An adaptive framework for the axisymmetric pulsar magnetosphere using physics-informed Kolmogorov-Arnold networks},
-  journal = {Placeholder Journal},
-  year    = {0000},
-  volume  = {0},
-  pages   = {0--0},
-  doi     = {00.0000/placeholder},
+  author        = {Rigas, Spyros and Contopoulos, Ioannis and Alexandridis, Georgios and Nathanail, Antonios},
+  title         = {An adaptive framework for the axisymmetric pulsar magnetosphere using physics-informed Kolmogorov-Arnold networks},
+  year          = {2026},
+  eprint        = {2606.10686},
+  archivePrefix = {arXiv},
+  primaryClass  = {physics.comp-ph},
+  url           = {https://arxiv.org/abs/2606.10686}, 
 }
 ```
